@@ -1,4 +1,4 @@
-import { BrowserRouter , Route, Routes, useLocation } from "react-router-dom"
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import Home from "../pages/Home"
@@ -35,7 +35,7 @@ function AppLayout() {
 function Routing() {
     return (
 
-        <BrowserRouter>
+        <BrowserRouter basename="/react-cap-web">
             <AppLayout />
         </BrowserRouter>
     )
