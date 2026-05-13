@@ -19,12 +19,12 @@ function AppLayout() {
             {!isNotFound && <Navbar />}
 
             <Routes>
-                <Route path="*" element={<NotFound />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/productcard" element={<ProductCard />} />
                 <Route path="/productcard/:id" element={<ProductDetail />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
 
             {!isNotFound && <Footer />}
