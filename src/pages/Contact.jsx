@@ -124,7 +124,7 @@ function Contact() {
                 <div className="icon-circle">✉️</div>
                 <div>
                   <strong>Email</strong>
-                  <p style={{ margin: 0 }}>support@capstore.com</p>
+                  <p style={{ margin: 0 }}>capstore@gmail.com</p>
                 </div>
               </div>
             </div>
