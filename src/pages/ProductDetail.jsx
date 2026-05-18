@@ -4,7 +4,7 @@ import { products } from "../product";
 function ProductDetail() {
   const { id } = useParams();
 
-  const product = products.find((item) => item.id == id);
+  const product = products.find((item) => item.id === Number(id));
 
   if (!product) {
     return <h2 style={{ textAlign: 'center', marginTop: '50px' }}>Product Not Found!</h2>;
